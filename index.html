@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - SMIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="social-icons">
+            <img src="facebook-icon.png" alt="Facebook">
+            <img src="instagram-icon.png" alt="Instagram">
+            <img src="youtube-icon.png" alt="YouTube">
+        </div>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Saylani SMIT">
+            <h1>Registration Form - SMIT</h1>
+            <p>Services - Education - Registration</p>
+        </div>
+        <div class="student-portal">
+            <button>📖 Student portal</button>
+        </div>
+    </div>
+
+    <!-- Registration Form Section -->
+    <div class="registration-form">
+        <form>
+            <div class="form-group">
+                <label for="country">Select country</label>
+                <select id="country">
+                    <option selected disabled>Select country</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="city">Select city</label>
+                <select id="city">
+                    <option selected disabled>Select city</option>
+                    <option value="karachi">Karachi</option>
+                    <option value="lahore">Lahore</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="course">Select course or event</label>
+                <select id="course">
+                    <option selected disabled>Select course or event</option>
+                    <option value="web">Web Development</option>
+                    <option value="graphic">Graphic Design</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="proficiency">Select your computer proficiency</label>
+                <select id="proficiency">
+                    <option selected disabled>Select your computer proficiency</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="fullname">Full name</label>
+                <input type="text" id="fullname" placeholder="Full name">
+            </div>
+            <div class="form-group">
+                <label for="fathername">Father name</label>
+                <input type="text" id="fathername" placeholder="Father name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <label for="file">Upload file</label>
+                <input type="file" id="file">
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

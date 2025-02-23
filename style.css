@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Signika', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+}
+
+.left-icons {
+    display: flex;
+    align-items: center;
+}
+
+.left-icons i {
+    color: blue;
+    margin-right: 10px;
+}
+
+.logo {
+    text-align: center;
+    flex: 1;
+}
+
+.logo h1 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.student-portal {
+    background: transparent;
+    color: blue;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+
+.social-media i {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.registration-form {
+    width: 80%;
+    margin: 20px auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: blue;
+}
+
+.form-group select {
+    padding: 8px;
+    border: 2px solid green;
+    background: white;
+    font-size: 14px;
+}
+
+.form-group select option:first-child {
+    color: grey;
+}
+
+button[type="submit"] {
+    grid-column: span 2;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
