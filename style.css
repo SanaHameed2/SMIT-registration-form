@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light grey background */
+    background-color: #f4f4f4;
 }
 
 header {
@@ -28,7 +28,7 @@ header {
 }
 
 .empty-space {
-    width: 100px; /* Adjust as needed */
+    width: 100px;
 }
 
 .header-content {
@@ -45,7 +45,7 @@ header {
 
 .title-portal h1 {
     margin: 0 10px 0 0;
-    font-size: 24px; /* Adjust font size */
+    font-size: 24px;
 }
 
 .title-portal h1 span {
@@ -58,7 +58,7 @@ header {
     padding: 8px 15px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px;
 }
 
 nav ul {
@@ -76,7 +76,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: #333;
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px;
 }
 
 main {
@@ -111,7 +111,7 @@ form {
 label {
     display: block;
     margin-bottom: 5px;
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px;
 }
 
 input[type="text"],
@@ -125,7 +125,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px; 
 }
 
 textarea {
@@ -140,13 +140,13 @@ button {
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
-    font-size: 16px; /* Adjust font size */
+    font-size: 16px; 
 }
 
 .checkbox-group label {
     display: flex;
     align-items: center;
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px; 
 }
 
 .checkbox-group input[type="checkbox"] {
@@ -172,10 +172,10 @@ button {
 
 .picture-upload p {
     margin: 5px 0;
-    font-size: 12px; /* Adjust font size */
+    font-size: 12px; 
 }
 
 .picture-upload p:first-child {
     font-weight: bold;
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px; 
 }
