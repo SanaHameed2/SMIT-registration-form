@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form - SMIT</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
 </head>
 <body>
     <header>
@@ -29,12 +28,11 @@
             </div>
             <nav>
                 <ul class="row1">
-                    <li>Services</li>
-                    <li>Education</li>
-                    <li>Registration</li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#" class="nav-link">Registration</a></li>
                 </ul>
                 <ul class="row2">
-                    <li><a href="#" class="nav-link">Registration</a></li>
                     <li><a href="#" class="nav-link">Download ID Card</a></li>
                     <li><a href="#" class="nav-link">Results</a></li>
                 </ul>
@@ -125,19 +123,15 @@
             <div class="form-group full-width">
                 <label>Picture</label>
                 <div class="picture-upload">
-                    <div class="upload-container">
-                        <input type="file" id="picture" name="picture" accept="image/*" required>
-                        <label for="picture" class="upload-label">
-                            <span class="upload-icon">+</span> Upload
-                        </label>
-                    </div>
-                    <div class="instructions">
-                        <p>Upload your recent passport size picture</p>
-                        <p>With white or blue background</p>
-                        <p>File size must be less than 1MB</p>
-                        <p>File type: jpg, jpeg, png</p>
-                        <p>Your face should be clearly visible without any glasses</p>
-                    </div>
+                    <input type="file" id="picture" name="picture" accept="image/*" required>
+                    <label for="picture" class="upload-label">
+                        <span class="upload-icon">+</span> Upload
+                    </label>
+                    <p>Upload your recent passport size picture</p>
+                    <p>With white or blue background</p>
+                    <p>File size must be less than 1MB</p>
+                    <p>File type: jpg, jpeg, png</p>
+                    <p>Your face should be clearly visible without any glasses</p>
                 </div>
             </div>
             <div class="form-group full-width checkbox-group">
@@ -170,7 +164,7 @@
                     It's mandatory for female students to wear abaya/hijab in the class.
                 </label>
             </div>
-            <div class="form-group full-width checkbox-group captcha-container">
+            <div class="form-group full-width checkbox-group">
                 <label>
                     <input type="checkbox" name="captcha" required>
                     I'm not a robot
